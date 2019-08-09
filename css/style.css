@@ -1,0 +1,38 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#intro {
+    background: url("https://image0.uhdpaper.com/wallpaper/velkoz-lol-splash-art-uhdpaper.com-4K-616.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #ab47bc;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #ab47bc;
+    }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #ab47bc;
+    }
+}
+
+span { 
+    margin-top: -75px;        /* Size of fixed header */
+    padding-bottom: 75px; 
+    display: block; 
+}
